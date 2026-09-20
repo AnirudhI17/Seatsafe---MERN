@@ -1,6 +1,4 @@
-# SeatSafe — Node.js + Express Backend Version
-
-> **Note**: This repository is the **Node.js/Express (JavaScript) version** of the original SeatSafe Go backend project. The original Go codebase has been preserved untouched in its original repository.
+# SeatSafe — High-Concurrency Event Ticketing Platform
 
 ---
 
@@ -8,8 +6,8 @@
 
 **SeatSafe** is a high-concurrency event ticketing and reservation platform. This project provides a full-stack MERN-style implementation consisting of:
 
-- **Frontend**: React + Vite + TypeScript + Tailwind CSS (Preserved from original project)
-- **Backend**: Node.js + Express.js (JavaScript) — Complete migration from Golang
+- **Frontend**: React + Vite + TypeScript + Tailwind CSS
+- **Backend**: Node.js + Express.js (JavaScript)
 - **Database**: PostgreSQL with row-level locking (`SELECT ... FOR UPDATE`) to prevent seat overbooking
 
 ---

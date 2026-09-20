@@ -1,7 +1,7 @@
 {
   "name": "seatsafe-backend-express",
   "version": "1.0.0",
-  "description": "Node.js Express migration for SeatSafe backend in pure JavaScript",
+  "description": "Node.js Express backend for SeatSafe in pure JavaScript",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
